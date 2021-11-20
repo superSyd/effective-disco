@@ -1,4 +1,4 @@
-# [Issue Tracker Project](https://www.freecodecamp.org/learn/quality-assurance/quality-assurance-projects/issue-tracker)
+# [Issue Tracker Project](https://boilerplate-project-issuetracker.supersyd.repl.co/)
 Test Cases
 - You can send a POST request to /api/issues/{projectname} with form data containing the required fields issue_title, issue_text, created_by, and optionally assigned_to and status_text.
 - The POST request to /api/issues/{projectname} will return the created object, and must include all of the submitted fields. Excluded optional fields will be returned as empty strings. Additionally, include created_on (date/time), updated_on (date/time), open (boolean, true for open - default value, false for closed), and _id.
